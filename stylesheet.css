@@ -1,0 +1,500 @@
+/*Debug border box*/
+/**{border: 1px solid red}*/
+.navbar-brand{
+  font-family: "Oswald", sans-serif;
+}
+/*.navbar-brand:hover{
+  color: #00e6b8 !important;
+}*/
+a:hover{
+  color: #00e6b8 !important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #00e6b8 !important;
+  }
+.nav>li {
+  font-family: "Oswald", sans-serif;
+}
+.navbar-inverse {
+  background-color: white !important;
+  border-color: white !important;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black !important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav/*>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover*/ {
+      color: #000 !important;
+      background-color: #ffffff !important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #9d9d9d;
+}
+
+.image-container{
+  display:flex;
+  height: 60vh;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-image: url("main-image.jpg");
+  background-size: cover;
+  background-position: 44% 42%;
+}
+
+#one_image{
+  /*max-width: 320px;*/
+  width: 100%;
+  height: auto;
+
+  /*max-height: 500px;*/
+}
+
+
+
+#title{
+    font-family: "Oswald", sans-serif;
+    padding: 10px 5px;
+    font-size: 35px;
+    text-align: center;
+}
+.p-container{
+  max-width: 1000px;
+  text-align: center;
+}
+.p-text {
+    font-family: "Oswald",sans-serif;
+    padding: 10px 35px;
+    color: #9d9d9d;
+    font-size: 15px;
+    max-width: 1000px;
+    line-height: 1.5em;
+}
+.link{
+  color: #00e6b8;
+}
+.skills-header{
+  padding: 25px;
+  font-size: 55px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+#contact{
+  text-align: center;
+}
+#contact-container{
+  background-color: #1ea78b;
+  padding: 15px 25px 25px;
+}
+#contact-text{
+  color: white;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  padding: 0.5em;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+#email-container{
+  text-align: center !important;
+  padding-bottom: 25px;
+}
+#email:hover{
+  text-decoration: none;
+  color: white !important;
+}
+a#email{
+  color: #fff;
+  text-align: center !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 55px;
+  /*border: 2px solid !important;
+  border-radius: 3px !important;
+  border-color: #ff6600 !important;*/
+  padding: 10px;
+
+}
+button{
+  background-color: #2661d0;
+  border: none;
+  padding: 20px 35px;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+}
+button:hover{
+  background-color: #1e4da5;
+}
+}
+#email:hover{
+  /*color:white !important;
+  text-decoration: none;
+  border: 2px solid !important;
+  border-radius: 3px !important;
+  border-color: white !important;*/
+}
+footer{
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: rgba(129,129,129,0.5);
+  font-size: 10px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+#portfolio-text-container{
+  padding-top: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#portfolio-text{
+  /*text-align: center;*/
+  background-color: #00e6b8;
+  color: white;
+  padding: 150px 240px;
+  font-size: 45px;
+  font-family: "Oswald", sans-serif;
+}
+/*.site__container{
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}*/
+#m3-container, #s13-container, #drifting-container, #hiphop-container, #henderson-container{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+#m3, #s13, #drifting, #hiphop, #henderson{
+  height: 181.64px;
+  width: 300px;
+  border: 3px solid #f71699;
+}
+
+#bmw-sales{
+display: block;
+font-size: 25px;
+font-family: "Oswald", sans-serif;
+}
+
+
+/**************For devices 1024px and larger:*****************/
+@media only screen and (min-device-width: 1024px) {
+  .image-container{
+    /*display:flex;*/
+    height: 60vh;
+    /*margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;*/
+    background-image: url("main-image.jpg");
+    background-size: cover;
+    background-position: 44% 42%;
+  }
+  .p-container{
+    max-width: 1000px;
+    text-align: center;
+  }
+  .p-text{
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 10px 5px;
+    text-indent: inherit;
+  }
+  #title{
+    font-size: 55px;
+  }
+  #contact-text{
+    font-size: 45px;
+  }
+  a#email{
+    font-size: 25px;
+  }
+  footer{
+    font-size: 15px;
+  }
+  #drifting{
+    /*height: 264.64px;*/
+  }
+  .site__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #bmw-container{
+    width: 1058px;
+    height: 637px;
+    /*margin-top: -20px;*/
+    display: inline-block;
+  }
+  #coatOfArms{
+    width: 500px;
+  }
+  .site__image{
+    width: 50%;
+    height: 637px;
+    float: left;
+  }
+  .site__text__container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .site__link{
+    font-family: "Oswald", sans-serif;
+    align-self: center;
+    text-align: center;
+    /*border: 1px solid green;*/
+    border-radius: 35px;
+    padding: 20px;
+    margin-top: 25px;
+    background-color: #4c4c4a;
+  }
+  #m3-container, #s13-container, #drifting-container, #hiphop-container, #henderson-container{
+    display: none;
+  }
+}
+/****************************************************************/
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-right: 35px !important;
+  }
+}
+.skills-list{
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  list-style-type: none;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-bottom: 55px;
+}
+#htmltext:hover{
+  display: none;
+}
+#html{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+  transition: 1s;
+}
+#htmlhover{
+  display:none;
+}
+#html:hover #htmlhover{
+  display: inline;
+}
+
+#css{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+}
+#js{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+}
+#jq{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+}
+#bs{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+}
+#adobe{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+}
+#php{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+}
+#turn{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 5px;
+  background-color: #565859;
+  color: white;
+}
+#sql{
+  width: 33.3%;
+  border: 1px solid;
+  border-color: #9d9d9d;
+  text-align: center;
+  padding:105px 0px;
+  background-color: #565859;
+  color: white;
+}
+
+
+/**************FOR MOBILE:*************************************************/
+@media only screen and (max-device-width: 767px) {
+/*.skills-header{
+  padding: 25px;
+}*/
+  .skills-list{
+    width: 100%;
+    font-size: 2s5px;
+  }
+  #html, #css, #js, #jq, #bs, #adobe, #turn, #php, #sql{
+    width: 50%;
+}
+#portfolio-text{
+  text-align: center;
+  background-color: #00e6b8;
+  color: white;
+  padding: 50px 15px;
+  font-size: 20px;
+}
+
+  /*#m3{
+    width: auto;
+    height: 180px;
+  }
+  #s13{
+    width: auto;
+    height: 200px;
+  }*/
+  #m3, #s13, #drifting, #hiphop, #henderson{
+    width: 100%;
+  }
+  a#email{
+    font-size: 20px;
+  }
+  .site__container{
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+  .site__image{
+    width: 100%;
+    height: auto;
+  }
+  .site__link{
+    font-family: "Oswald", sans-serif;
+    padding: 20px;
+    margin-top: 25px;
+    width: 100%;
+    background-color: #4c4c4a;
+  }
+}
+/***********************************************************************************/
+
+
+.skill__container {
+  position: relative;
+  width: 33.3%;
+  display: flex;
+  width: 333px !important;
+  border: 1px solid gray;
+  justify-content: center;
+}
+
+.image-blocks {
+  display: block;
+  /*width: 33.3%;*/
+  height: 262px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 262px;
+  /*width: 33.3%;*/
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(78, 81, 80, 0.85);
+}
+
+.skill__container:hover .overlay {
+  opacity: 1;
+}
+
+.skill__text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.skill__overlay{
+  width: 270px;
+  display: flex;
+  justify-content: center;
+}
+.mobile-header{
+  font-family: "Oswald",sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+
+.site__text{
+  letter-spacing: 1.3px;
+  font-family: "Oswald", sans-serif;
+  align-self: center;
+  text-align: center;
+}
+
+.site__button{
+  font-size: 35px;
+  color: white;
+}
