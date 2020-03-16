@@ -2,19 +2,23 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.dropdown-menu {
+  background-color: #8e44ad !important;
+  border: 1px solid #ffffff;
+}
+
 .sidebar {
-  background-color: #8e44ad;
-  height: 100vh;
+  background-color: #8e44ad !important;
+  /* height: 100vh; */
   overflow: auto;
 }
 
 .sidebar *:not(.dropdown-divider) {
-  padding: 16px;
+  /* padding: 16px; */
   color: #ffffff;
 }
 .sidebar a {
   display: block;
-  /* padding: 16px; */
   text-decoration: none;
 }
 
@@ -27,7 +31,7 @@ main {
 }
 
 .about__section {
-  height: 50%;
+  /* height: 50%; */
 }
 
 .about__image {
@@ -46,4 +50,18 @@ main {
 
 .music-list li span {
   width: 15em;
+}
+
+@media screen and (min-width: 992px) {
+  .sidebar-wrapper {
+    position: fixed;
+  }
+  
+  .sidebar {
+    height: 100vh;
+  }
+
+  main {
+    width: 100vw;
+  }
 }

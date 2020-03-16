@@ -1,4 +1,6 @@
 (function() {
+
+  // all api keys should not be exposed in a real app. Should be hidden in the backend
   const api = "https://deezerdevs-deezer.p.rapidapi.com/search?q=";
   const musicInput = document.getElementById('music-search');
   const musicSearchBtn = document.getElementById('music-search__button');
