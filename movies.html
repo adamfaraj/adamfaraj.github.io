@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/site.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/r-2.2.3/datatables.min.css"/>
+ 
+
+
+  <title>Adam Faraj</title>
+</head>
+<body>
+
+  <div class="wrapper row">
+
+    <div class="sidebar position-fixed col-md-2">
+      <h2>Adam Faraj</h2>
+      <a href="./index.html">Home</a>
+      <a href="http://adamfaraj.com/" target="_blank">My Website</a>
+      <div class="dropdown-divider mx-3"></div>
+      <h3>Interests</h3>
+      <a href="./cars.html">Cars</a>
+      <a href="./music.html">Music</a>
+      <a href="#">Movies</a>
+    </div>
+
+    <main class="col-md-10 offset-md-2 pt-4">
+      <h1>Movies</h1>
+      <h5>I love watching movies and going to the theatre. Here are some of my favorite movies.</h5>
+
+      <table id="movies" class="display table-striped table-compact cell-border" style="width:100%">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Year of Release</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>V for Vendetta</td>
+              <td>2006</td>
+              <td>8.2</td>
+          </tr>
+          <tr>
+              <td>Superbad</td>
+              <td>2007</td>
+              <td>7.6</td>
+          </tr>
+          <tr>
+              <td>The Prestige</td>
+              <td>2006</td>
+              <td>8.5</td>
+          </tr>
+          <tr>
+              <td>Interstellar</td>
+              <td>2014</td>
+              <td>8.6</td>
+          </tr>
+          <tr>
+              <td>Avengers: Infinity War</td>
+              <td>2018</td>
+              <td>8.5</td>
+          </tr>
+        </tbody>
+    </table>
+
+    <label for="movie-search" class="mt-5">Search for your favorite movie!</label>
+    <input type="text" id="movie-search" name="movie-search">
+    <button class="btn btn-primary" id="movie-search__button">Search</button>
+
+    <div class="search-results">
+      <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top movie-image" alt="">
+        <div class="card-body">
+          <h5 class="card-title movie-title"></h5>
+          <p class="card-text movie-plot"></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item movie-director"></li>
+          <li class="list-group-item movie-rating"></li>
+        </ul>
+      </div>
+    </div>
+    </main>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/movies.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.sidebar {
+  background-color: #8e44ad;
+  height: 100vh;
+  overflow: auto;
+}
+
+.sidebar *:not(.dropdown-divider) {
+  padding: 16px;
+  color: #ffffff;
+}
+.sidebar a {
+  display: block;
+  /* padding: 16px; */
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #2d3436
+}
+
+main {
+  background-color: #dfe6e9;
+}
+
+.about__section {
+  height: 50%;
+}
+
+.about__image {
+  border-radius: 50%;
+}
+
+.search-results {
+  display: none;
+}
+
+.music-list li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.music-list li span {
+  width: 15em;
+}
