@@ -5,7 +5,7 @@ $(document).ready(function() {
 (function() {
 
   // all api keys should not be exposed in a real app. Should be hidden in the backend
-  const api = "http://www.omdbapi.com/?apikey=c077cec3&t=";
+  const api = "https://www.omdbapi.com/?apikey=c077cec3&t=";
   const movieInput = document.getElementById('movie-search');
   const movieSearchBtn = document.getElementById('movie-search__button');
   const searchResults = document.getElementsByClassName('search-results')[0];
